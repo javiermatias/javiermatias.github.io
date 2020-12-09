@@ -1,0 +1,2 @@
+execute ng build --prod --baseHref="https://javiermatias.github.io/"
+git push
