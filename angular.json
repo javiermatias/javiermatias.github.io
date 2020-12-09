@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cv-online"
+    }
+  },
+  "defaultProject": "cv-online",
+  "cli": {
+    "analytics": "3ea13fbb-0dce-433d-bb1f-fa03762ea85a"
+  }
 }

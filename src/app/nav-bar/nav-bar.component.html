@@ -1,0 +1,26 @@
+<div class="w3-top">
+
+    <div class="w3-bar w3-light-grey">
+      <div class="w3-col s9 m3 l3">
+        <p style="text-align:center; padding-top:10px"> Hi! My name is Javier Jimenez!</p>
+      </div>
+  
+      <nav>
+        <ul>
+          <li><a routerLink="about" routerLinkActive="active">About Me</a></li>
+          <li><a routerLink="work" routerLinkActive="active">Work expierence</a></li>        
+          <li><a routerLink="education" routerLinkActive="active">Education</a></li>
+        </ul>
+      </nav> 
+  
+      <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" (click)="click()">&#9776;</a>
+    </div>
+    
+    
+    <div id="demo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-show" *ngIf="barra">
+      <a href="#" class="w3-bar-item w3-button"> <i class="fa fa-user-circle-o fa-fw w3-margin-right w3-large w3-text-teal"></i>About Me</a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Work expierence</a>
+      <a href="#" class="w3-bar-item w3-button"><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-large w3-text-teal"></i>Education</a>
+    </div>
+  
+  </div>
