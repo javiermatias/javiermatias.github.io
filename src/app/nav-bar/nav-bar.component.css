@@ -50,6 +50,11 @@ nav {
   ul li:hover ul li a {
     color: #f9f8fd;
   }
+
+  .active{
+  
+    border-bottom: 2px solid #009689;
+  }
   
   @keyframes slide-in {
     0% {
